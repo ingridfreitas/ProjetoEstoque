@@ -1,0 +1,16 @@
+<table mat-table [dataSource]="categorias" class="mat-elevation-z8">
+
+    <ng-container matColumnDef="id">
+        <th mat-header-cell *matHeaderCellDef> # </th>
+        <td mat-cell *matCellDef="let categoria"> {{categoria.id}} </td>
+      </ng-container>
+
+    <ng-container matColumnDef="nomecat">
+      <th mat-header-cell *matHeaderCellDef> Categoria </th>
+      <td mat-cell *matCellDef="let categoria"> {{categoria.nomecat}} </td>
+    </ng-container>
+  
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+  

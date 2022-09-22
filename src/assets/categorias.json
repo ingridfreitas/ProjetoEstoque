@@ -1,0 +1,21 @@
+[{
+    "id": 1,
+    "nomecat": "Bebidas"
+},
+{
+    "id": 2,
+    "nomecat": "Açougue"
+},
+{
+    "id": 3,
+    "nomecat": "Doces"
+},
+{
+    "id": 4,
+    "nomecat": "Salgados"
+},
+{
+    "id": 5,
+    "nomecat": "Limpeza"
+}
+]
