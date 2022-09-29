@@ -17,5 +17,13 @@
 {
     "id": 5,
     "nomecat": "Limpeza"
+},
+{
+    "id": 6,
+    "nomecat": "Diversos"
+},
+{
+    "id": 7,
+    "nomecat": "Hortifruti"
 }
 ]
